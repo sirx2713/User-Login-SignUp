@@ -2,8 +2,8 @@ import UIKit
 
 struct isad{
     
-    let users = ["Alexander","Bradley", "Tafadzwa", "iSAD"]
-    let username:String
+    var users = ["Alexander","Bradley","Tafadzwa","iSAD"]
+    var username:String
     
     func login(){
         
@@ -34,5 +34,5 @@ struct isad{
     }
 }
 
-let loginDetails = isad(username: "Alexand")
+var loginDetails = isad(username: "iSAD")
 loginDetails.login()
